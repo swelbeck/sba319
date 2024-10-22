@@ -5,10 +5,11 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import connectDB from "./db/conn.mjs";
 import countryRoutes from "./routes/countryRoutes.mjs"
+import Country from "./models/countrySchema.mjs"
 
 // Setups
-const app = express();
 dotenv.config();
+const app = express();
 let PORT = process.env.PORT || 3001;
 
 // DB Connection

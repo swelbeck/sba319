@@ -1,13 +1,15 @@
-// conn.mjs
+// ./db/conn.mjs
 // imports
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
+// Configurations
 dotenv.config();
 
+// Database Connection
 const connectionString = process.env.mongoURI;
 
-const connectDB = async () => {
+export default async function connectDB() {
   try {
     await mongoose.connect(connectionString);
     console.log(`Mongoose Connected...`);
@@ -15,6 +17,4 @@ const connectDB = async () => {
     console.error(error);
     process.exit(1);
   }
-};
-
-export default connectDB;
+}

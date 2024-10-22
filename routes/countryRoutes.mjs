@@ -7,7 +7,7 @@ const router = express.Router()
 
 // READ
 router.get("/", (req,res)=>{
-    res.send("Welcome to the server!")
+    res.json("Welcome to the server!")
 })
 
 // UPDATE
