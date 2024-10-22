@@ -31,6 +31,13 @@ const countrySchema = new mongoose.Schema({
   },
   independenceDate: {
     type: Date,
+    validate: {
+      validator: function (v) {
+        return this.independent ? v != null : true; // If independent, date is required
+      },
+      message: (props) =>
+        `Independence date is required for independent countries.`,
+    },
   },
   population: {
     type: Number,
@@ -48,6 +55,22 @@ const countrySchema = new mongoose.Schema({
     numericCode: {
       type: Number,
       required: true,
+    },
+  },
+  administeringState: {
+    type: String,
+    validate: {
+      validator: function (v) {
+        return !this.independent ? v != null : true; // Required if not independent
+      },
+    },
+  },
+  domesticLegalStatus: {
+    type: String,
+    validate: {
+      validator: function (v) {
+        return !this.independent ? v != null : true; // Required if not independent
+      },
     },
   },
 });

@@ -2,32 +2,33 @@
 
 export const countries = [
   {
-    name: "Country",
+    name: "United States of America (the)",
     continent: "Continent",
     capitalCity: "Capital",
     languages: {
-      officialLanguage: "Language",
+      officialLanguage: "English",
       otherLanguages: [],
     },
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
     countryCodes: {
-      alpha2Code: "AB",
-      alpha3Code: "ABC",
-      numericCode: 123,
+      alpha2Code: "US",
+      alpha3Code: "USA",
+      numericCode: 840,
     },
   },
   {
-    name: "Country",
+    name: "Bermuda",
     continent: "Continent",
     capitalCity: "Capital",
     languages: {
       officialLanguage: "Language",
       otherLanguages: [],
     },
-    independent: true,
-    independenceDate: new Date("2000-01-01"),
+    independent: false,
+    administeringState: "AdminStateX",
+    domesticLegalStatus: "Territory",
     population: 500000,
     countryCodes: {
       alpha2Code: "AB",
