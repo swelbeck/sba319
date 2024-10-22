@@ -12,6 +12,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -24,6 +29,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -36,6 +46,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -48,6 +63,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -60,6 +80,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -72,6 +97,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -84,6 +114,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -96,6 +131,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -108,6 +148,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -120,6 +165,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -132,6 +182,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -144,6 +199,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -156,6 +216,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -168,6 +233,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -180,6 +250,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -192,6 +267,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -204,6 +284,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -216,6 +301,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -228,6 +318,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -240,6 +335,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -252,6 +352,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -264,6 +369,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -276,6 +386,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -288,6 +403,11 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
   {
     name: "Country",
@@ -300,5 +420,10 @@ export const countries = [
     independent: true,
     independenceDate: new Date("2000-01-01"),
     population: 500000,
+    countryCodes: {
+      alpha2Code: "AB",
+      alpha3Code: "ABC",
+      numericCode: 123,
+    },
   },
 ];

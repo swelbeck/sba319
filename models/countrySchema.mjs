@@ -34,14 +34,27 @@ const countrySchema = new mongoose.Schema({
   },
   population: {
     type: Number,
-    min: [1, 'Population must be at least 1.']
+    min: [1, "Population must be at least 1."],
+  },
+  countryCodes: {
+    alpha2Code: {
+      type: String,
+      required: true,
+    },
+    alpha3Code: {
+      type: String,
+      required: true,
+    },
+    numericCode: {
+      type: Number,
+      required: true,
+    },
   },
 });
 
 // Indexing
 countrySchema.index({ name: 1 });
 countrySchema.index({ continent: 1 });
-
 
 // Export data model using Country as the reference name
 // "Country" is thename of the collection in the Database
