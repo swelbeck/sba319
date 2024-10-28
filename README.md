@@ -23,9 +23,10 @@ The application can be easily extended with additional collections, like cities 
 ## Setup
 
 1. **Clone the repository**:
-   ````bash
+   ````
+   bash
    git clone https://github.com/swelbeck/sba319.git
-   cd sba319```
+   cd sba319
    ```
 
 2. **Install dependencies**:
@@ -35,8 +36,9 @@ The application can be easily extended with additional collections, like cities 
 
 - Create a `.env` file in the root directory with the following content:
 
-```mongoURI=your_mongoDB_connection_string
-PORT=3001```
+```
+mongoURI=your_mongoDB_connection_string
+PORT=3001
 ```
 
 4. **Seed the Database** (Optional):
