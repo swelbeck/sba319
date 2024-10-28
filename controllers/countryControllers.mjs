@@ -13,6 +13,13 @@ async function addCountry(req, res) {
   }
 }
 
+// @route:  GET /
+// @desc    Display welcome message
+// @access: Public
+async function welcomeMsg(req, res) {
+  res.json("Welcome to the server!");
+}
+
 // @route:  GET /countries
 // @desc    GET all countries
 // @access: Public
@@ -62,19 +69,19 @@ async function updateCountryById(req, res) {
 // @desc    DELETE a country by ID
 // @access: Public
 
-async function removeCountryById(req, res){
+async function removeCountryById(req, res) {
   try {
     const deletedCountry = await Country.findByIdAndDelete(req.params.id);
-    if (!deletedCountry) return res.status(404).json({ message: "Country not found" });
+    if (!deletedCountry)
+      return res.status(404).json({ message: "Country not found" });
     res.json({ message: "Country deleted successfully" });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
-};
-
-
+}
 
 export default {
+  welcomeMsg,
   addCountry,
   getCountries,
   getCountryById,

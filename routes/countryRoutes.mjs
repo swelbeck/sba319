@@ -11,6 +11,11 @@ const router = express.Router();
 router.post("/countries", countryCtrl.addCountry);
 
 ////// READ //////
+// @route:  GET /
+// @desc    Display welcome message
+// @access: Public
+router.get("/", countryCtrl.welcomeMsg);
+
 // @route:  GET /countries
 // @desc    GET all countries
 // @access: Public

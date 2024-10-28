@@ -5,6 +5,7 @@ import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import connectDB from "./db/conn.mjs";
 import countryRoutes from "./routes/countryRoutes.mjs";
+import { countries } from "./data/countries.mjs";
 import Country from "./models/countrySchema.mjs";
 
 // Setups
@@ -21,6 +22,16 @@ app.use(bodyParser.json({ extended: true }));
 
 // Routes
 app.use("/", countryRoutes);
+// Seed route
+app.get("/seed", async (req, res) => {
+  // Optional step to delete what is currently in the database before creating items
+  // This step avoids duplicates
+  await Country.deleteMany({});
+
+  // create items in database
+  await Country.create(countries);
+  res.send("Seeding database");
+});
 
 // Listener
 app.listen(PORT, () => {
