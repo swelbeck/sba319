@@ -26,6 +26,7 @@ The application can be easily extended with additional collections, like cities 
    ````bash
    git clone https://github.com/swelbeck/sba319.git
    cd sba319```
+   ```
 
 2. **Install dependencies**:
    `npm install`
@@ -36,7 +37,12 @@ The application can be easily extended with additional collections, like cities 
 
 ```mongoURI=your_mongoDB_connection_string
 PORT=3001```
+```
 
 4. **Seed the Database** (Optional):
+- Run the database seeding script to populate the Country collection with sample data:
+`node ./scripts/seedDatabase.mjs`
 
-5.
+5. **Start the server**:
+`npm start`
+- This will start running the server on the specified port (default: 3001).
