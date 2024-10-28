@@ -51,10 +51,10 @@ The application can be easily extended with additional collections, like cities 
 
 ## API Documentation
 
-**Base URL**
+### Base URL
 - Local: `http://localhost:3000`
 
-**Endpoints**
+### Endpoints
 | **Endpoint**           | **Method** | **Description**                                       | **Request Body**                                                                                                                                                                               | **Response**                                                                                                                                                     |
 |------------------------|------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `/`                    | GET        | Returns a welcome message to confirm the server is running. | None                                                                                                                                                                                            | `"Welcome to the server!"`                                                                                                                                       |
@@ -64,3 +64,20 @@ The application can be easily extended with additional collections, like cities 
 | `/countries/:id`       | PATCH      | Updates information for a specific country by ID.     | ```json { "population": 25500000 } ```                                                                                                                                                          | JSON object of the updated country                                                                                                                               |
 | `/countries/:id`       | DELETE     | Removes a specific country from the database by ID.   | None                                                                                                                                                                                            | `{ "message": "Country deleted successfully" }`                                                                                                                 |
 
+## Technologies Used
+- Node.js and Express for server and routing.
+- MongoDB and Mongoose for database and schema management.
+- dotenv for environment variable management.
+
+## Project Structure
+- /models: Mongoose schema definitions.
+- /routes: Express route definitions.
+- /db: Database connection file.
+- /data: Sample data for seeding the database.
+- /scripts: Utility scripts (e.g., database seeding).
+
+## Future Enhancements
+
+- Add collections for cities or languages to demonstrate MongoDB relations.
+- Implement more detailed data validation with Mongoose validators.
+- Add pagination to the /countries GET endpoint.
