@@ -25,7 +25,7 @@ The application can be easily extended with additional collections, like cities 
 ## Setup
 
 1. **Clone the repository**:
-   ````
+   ```
    git clone https://github.com/swelbeck/sba319.git
    cd sba319
    ```
