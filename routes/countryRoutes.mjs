@@ -1,4 +1,4 @@
-// countryRoutes.mjs
+// ./routes/countryRoutes.mjs
 // Imports
 import express from "express";
 import countryCtrl from "../controllers/countryControllers.mjs";
