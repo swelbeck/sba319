@@ -4,8 +4,8 @@ import express from "express";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import connectDB from "./db/conn.mjs";
-import countryRoutes from "./routes/countryRoutes.mjs"
-import Country from "./models/countrySchema.mjs"
+import countryRoutes from "./routes/countryRoutes.mjs";
+import Country from "./models/countrySchema.mjs";
 
 // Setups
 dotenv.config();
@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json({ extended: true }));
 
 // Routes
-app.use('/', countryRoutes)
+app.use("/", countryRoutes);
 
 // Listener
 app.listen(PORT, () => {
